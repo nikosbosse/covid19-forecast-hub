@@ -8,10 +8,11 @@ license: cc-by-4.0
 team_model_designation: primary
 
 methods: >-
-    A deaths forecast using the renewal equation and time-series forecasts of the time-varying reproduction number.
+    A deaths forecast using a mean ensemble of three different models: An Rt based forecast, a timeseries forecast using deaths only and a timeseries forecast using deaths and cases.
 
 institution_affil: London School of Hygiene & Tropical Medicine
 team_funding: Wellcome Trust
 
 methods_long: >-
     2020-06-15: A deaths forecast using the renewal equation and time-series forecasts of the time-varying reproduction number; to be updated as an ensemble forecast.
+    2020-07-13: The models included are: 1) A deaths forecast using the renewal equation to estimate Rt and project it into the future. For details see github.com/epiforecasts/EpiSoon and github.com/epiforecasts/EpiNow. A timeseries based on the forecastHybrid package and a second timeseries model that also uses cases as a predictor. 
